@@ -5,16 +5,17 @@
     <div class="container custom-login">
         <div class="row justify-content-center">
           <div class="col-sm-4 ">
-            <form action="">
+            <form action="login" method="POST">
               <div class="form-group">
+                @csrf
                 <label for="">Email Address</label>
-                <input type="text" class="form-control">
+                <input type="text" name="email" class="form-control">
               </div>
               <div class="form-group">
                 <label for="">Password</label>
-                <input type="password" class="form-control mb-2">
+                <input type="password" name="password" class="form-control mb-2">
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Login</button>
             </form>
 
           </div>

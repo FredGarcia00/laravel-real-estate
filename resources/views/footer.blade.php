@@ -1,4 +1,4 @@
-<div class="footer bg-light">
+<div class="footer mt-auto bg-light">
     <div class="panel-body">
         panel content
     </div>

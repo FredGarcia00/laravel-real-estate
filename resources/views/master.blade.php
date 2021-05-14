@@ -22,6 +22,40 @@
     height:500px;
     padding-top:100px
   }
+
+  img.slider-img {
+    height: 400px !important;
+    width: 1200px;
+    object-fit: cover
+  }
+
+  .custom-product {
+    justify-content: center;
+  }
+
+  .slider__text {
+    background-color: rgba(29, 41, 29, 0.623);
+    margin: auto;
+    width: 50%;
+    
+  }
+  .trending__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+
+  .trending__image {
+    height: 150px;
+  }
+
+  .detail__img {
+    height: 300px;
+  }
+
+  .search__box {
+    width: 500px;
+  }
 </style>
 
 </html>

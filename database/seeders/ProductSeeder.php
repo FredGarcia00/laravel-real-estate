@@ -31,11 +31,11 @@ class ProductSeeder extends Seeder
                 "gallery" => "img/apartment.jpg"
             ],
             [
-                'name'=> 'Vaction Homes',
+                'name'=> 'Vacation Homes',
                 'price'=>'185,000',
                 'description' => '3bed. 2bath. 2400sf.',
                 "category" => 'Homes',
-                "gallery" => "img/home2.jpg"
+                "gallery" => "img/lux.png"
             ],
             [
                 'name'=> 'Condos',
@@ -43,6 +43,20 @@ class ProductSeeder extends Seeder
                 'description' => '3bed. 2bath. 2400sf.',
                 "category" => 'condo',
                 "gallery" => "img/condo.jpg"
+            ],
+            [
+                'name'=> 'Los Angeles',
+                'price'=>'600,000',
+                'description' => '5bed. 4bath. 2500sf.',
+                "category" => 'homes',
+                "gallery" => "img/color.png"
+            ],
+            [
+                'name'=> 'Los Angeles',
+                'price'=>'3,500,000',
+                'description' => '5bed. 5bath. 3600sf.',
+                "category" => 'homes',
+                "gallery" => "img/la.png"
             ]
         ]);
     }

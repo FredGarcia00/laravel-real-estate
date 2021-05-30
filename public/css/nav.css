@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.navbar {
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 2;
+}
+
+.container-fluid {
+    position:absolute;
+    transform: translate(0, 70px);
+}
+
+.navbar-toggler {
+    background-color:#fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}

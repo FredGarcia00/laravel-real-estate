@@ -1,0 +1,18 @@
+ul.transition {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    top:0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+ul.transition li {
+    transform: scaleY(0);
+    background: gold;
+    width: 20%;
+}

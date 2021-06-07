@@ -4,11 +4,7 @@
     padding: 0 !important;
     margin: 0 !important;
     z-index: 2;
-}
-
-.container-fluid {
-    position:absolute;
-    transform: translate(0, 70px);
+    background-color:#000;
 }
 
 .navbar-toggler {
@@ -17,4 +13,14 @@
 
 .nav-link {
     color: #fff !important;
+}
+
+@media screen and (min-width:990px) {
+    .navbar-expand-lg{
+        position:absolute !important ;
+        top: 0;
+        background-color:transparent ;
+        /* transform:translate(10px,20px); */
+        width: 100%;
+    }
 }

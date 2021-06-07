@@ -19,6 +19,7 @@ class ProductSeeder extends Seeder
             [
                 'name'=> 'Florida Home',
                 'price'=>'250,000',
+                // 'option'=>'buy',
                 'description' => '3bed. 2bath. 2400sf.',
                 "category" => 'Homes',
                 "gallery" => "img/home.jpg"
@@ -26,6 +27,7 @@ class ProductSeeder extends Seeder
             [
                 'name'=> 'California Apartments',
                 'price'=>'1200',
+                // 'option'=>'buy',
                 'description' => '2bed. 2bath. 1200sf.',
                 "category" => 'Apartment',
                 "gallery" => "img/apartment.jpg"
@@ -33,6 +35,7 @@ class ProductSeeder extends Seeder
             [
                 'name'=> 'Vacation Homes',
                 'price'=>'185,000',
+                // 'option'=>'rent',
                 'description' => '3bed. 2bath. 2400sf.',
                 "category" => 'Homes',
                 "gallery" => "img/lux.png"
@@ -40,6 +43,7 @@ class ProductSeeder extends Seeder
             [
                 'name'=> 'Condos',
                 'price'=>'120,000',
+                // 'option'=>'rent',
                 'description' => '3bed. 2bath. 2400sf.',
                 "category" => 'condo',
                 "gallery" => "img/condo.jpg"
@@ -47,6 +51,7 @@ class ProductSeeder extends Seeder
             [
                 'name'=> 'Los Angeles',
                 'price'=>'600,000',
+                // 'option'=>'buy',
                 'description' => '5bed. 4bath. 2500sf.',
                 "category" => 'homes',
                 "gallery" => "img/color.png"
@@ -54,6 +59,7 @@ class ProductSeeder extends Seeder
             [
                 'name'=> 'Los Angeles',
                 'price'=>'3,500,000',
+                // 'option'=>'buy',
                 'description' => '5bed. 5bath. 3600sf.',
                 "category" => 'homes',
                 "gallery" => "img/la.png"

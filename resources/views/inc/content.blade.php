@@ -81,8 +81,8 @@
         background-color:#grey;
         font-family: 'Open Sans', sans-serif;
         background:#000;
-
     }
+
 
     .content__title {
       padding: 20px;
@@ -170,5 +170,18 @@
       font-size: 2rem;
       font-weight: 600;
       margin-right: 10px;
+    }
+
+
+    @media (min-width: 1px) and (max-width: 575px)  {
+      .content__wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      }
+
+      .content__chooseContent h1 {
+        font-size: 1.7rem;
+      }
     }
 </style>

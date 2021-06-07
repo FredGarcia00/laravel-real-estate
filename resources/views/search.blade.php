@@ -3,23 +3,23 @@
 @section('content')
 
 
-  <div class=" custom-product">
+  <div class="custom-product">
     {{-- Below is left side search settings --}}
     <div class="search__sidebar">
-      <h3>location</h3>
+      <h3>Location</h3>
       <form action="/search">
         <input name="query" type="text"> 
         <button class="btn btn-primary" type="submit">Search</button>
       </form>
 
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+        <input class="form-check-input" name="f-sale" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" >
         <label class="form-check-label" for="flexRadioDefault1">
           For sale
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+        <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault2">
         <label class="form-check-label" for="flexRadioDefault2">
           For rent
         </label>
@@ -27,7 +27,7 @@
       <div>
         <h3>Price range</h3>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <input name="price" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
           <label class="form-check-label" for="flexCheckDefault">
             $0 - $399k
           </label>
@@ -75,6 +75,7 @@
             </div>
           @endsection
             <style>
+
   a {
     text-decoration: none !important;
     color: #fff !important;

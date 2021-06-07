@@ -2,6 +2,7 @@
 
 
 
+
 .home__title {
     color:#fff;
     font-size:3rem;
@@ -10,4 +11,10 @@
 
 .search__box {
     height: 60px;
+}
+
+@media screen and (min-width:990px) {
+    .home {
+        position: relative;
+    }
 }

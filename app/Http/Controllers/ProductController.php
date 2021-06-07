@@ -28,9 +28,9 @@ class ProductController extends Controller
 
     function search (Request $req)
     {
-        
-         $data = Product::where('name','like', '%' .$req->input('query'). '%')->get();
-        return view('search', ['products'=>$data]);
+         $name_data = Product::where('name', 'LIKE' , '%' .$req->input('query'). '%')->get();
+        //  $price_data = Product::where()
+        return view('search', ['products'=>$name_data]);
     }
     function addToFavorites(Request $req) 
     {

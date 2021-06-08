@@ -91,8 +91,6 @@
     grid-template-columns: 1fr 2fr;
     justify-items: center;
     margin-top: 130px;
-    background: lightgrey;
-    border-top: 1px solid gold;
   }
 
   .card {
@@ -101,5 +99,47 @@
 
   .card-body{
     color:#000;
+  }
+
+  @media screen and (max-width:440px) {
+    .custom-product {
+      display: flex ;
+      flex-direction: column ;
+      margin-top: 750px;
+      margin-bottom: 750px;
+      background:none;
+      border:none;
+    }
+
+    .trending__wrapper {
+      display:flex !important;
+      flex-direction:column !important;
+    }
+
+   
+
+    .footer__top {
+        flex-direction:column;
+      }
+
+      .footer h1 {
+        margin-left: 31px;
+      }
+
+      .footer__phone {
+        transform: translate(-20px, 0px);
+      }
+
+      .footer__agencies {
+        transform: translate(-18px, 0px);
+      }
+
+      .footer__infoPolicy {
+        max-width: 250px !important;
+      }
+
+      .footer__policy {
+        max-width: 250px !important;
+      }
   }
 </style>

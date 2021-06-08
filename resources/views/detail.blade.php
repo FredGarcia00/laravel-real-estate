@@ -3,7 +3,7 @@
 
 @section('content')
 
- <div class="container" style="margin-top:150px;height:100vh; background:grey;">
+ <div class="container" style="margin-top:150px;height:100vh;">
      <div class="row display-flex">
          <div class="col-sm-6">
              <img src="/{{$product['gallery']}}" class="detail__img" alt="" style="margin-bottom: 5px;">
@@ -36,4 +36,43 @@
          </div>
      </div>
  </div>
+ <style>
+
+ 
+    .footer__phone ul {
+        list-style: none;
+      }
+   @media screen and (max-width:768px) {
+
+     
+     .container {
+      margin-bottom: 312px;
+     }
+
+     .footer__top {
+        flex-direction:column;
+      }
+
+      .footer h1 {
+        margin-left: 31px;
+      }
+
+      .footer__phone {
+        transform: translate(-20px, 0px);
+      }
+
+      .footer__agencies {
+        transform: translate(-18px, 0px);
+      }
+
+      .footer__infoPolicy {
+        max-width: 250px !important;
+      }
+
+      .footer__policy {
+        max-width: 250px !important;
+      }
+   }
+
+ </style>
 @endsection

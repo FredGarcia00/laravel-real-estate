@@ -48,7 +48,7 @@
         <h1>Why work with us</h1>
         <div class="content__proof">
           <ul>
-            <li>$5B+</li>
+            <li>$5 Billion+</li>
             <li><h4>Sold</h4></li>
           </ul>
           <ul>
@@ -56,8 +56,8 @@
             <li><h4>Trends by volume</h4></li>
           </ul>
           <ul>
-            <li>1M+</li>
-            <li><h4>instagram followers</h4></li>
+            <li>1 Million+</li>
+            <li><h4>Instagram followers</h4></li>
           </ul>
         </div>
       </div>
@@ -173,15 +173,68 @@
     }
 
 
-    @media (min-width: 1px) and (max-width: 575px)  {
+    @media screen and (max-width: 440px)  {
       .content__wrapper {
       display: flex;
       flex-direction: column;
       width: 100%;
       }
 
+      .card {
+        width:17rem !important;
+        height:17rem !important;
+        margin-left:4px;
+        margin-bottom:5px !important;
+      }
+
+      .content__choose {
+        height: 100vh;
+      }
+
       .content__chooseContent h1 {
         font-size: 1.7rem;
+       
+      }
+
+      .content__proof {
+        flex-direction: column;
+        
+      }
+
+      .content__proof ul {
+        border-bottom: 1px solid lightgrey;
+        border-right: none;
+      }
+
+      .footer__top {
+        flex-direction:column;
+      }
+
+      .footer h1 {
+        margin-left: 31px;
+      }
+
+      .footer__phone {
+        transform: translate(-20px, 0px);
+      }
+
+      .footer__agencies {
+        transform: translate(-18px, 0px);
+      }
+
+      .footer__infoPolicy {
+        max-width: 250px !important;
+      }
+
+      .footer__policy {
+        max-width: 250px !important;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .content__wrapper {
+        display:flex;
+        flex-direction:column;
       }
     }
 </style>

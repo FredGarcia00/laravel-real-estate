@@ -57,7 +57,7 @@ class ProductController extends Controller
     }
 
 
-    static function favItem() {
+     function favItem() {
         $userId = Session::get('user')['id'];
         return Cart::where('user_id',$userId)->count();
     }

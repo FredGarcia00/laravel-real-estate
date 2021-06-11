@@ -34,6 +34,9 @@
         height: 100vh !important;
         margin-top: 130px !important;
         padding-left: 10px;
+    }
 
+    @media screen and (min-width:990px) {
+        margin-top:100px;
     }
 </style>

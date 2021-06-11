@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\ProductController;
 
+
 (Session::has('user')) ? $total = ProductController::favItem() : $total = 0;
 
 

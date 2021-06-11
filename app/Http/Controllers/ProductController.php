@@ -70,7 +70,6 @@ class ProductController extends Controller
         ->select('products.*', 'cart.id as cart_id')
         ->get();
         return view('favoritesList', ['products' => $favorites]);
-
     }
 
     function remove($id) 

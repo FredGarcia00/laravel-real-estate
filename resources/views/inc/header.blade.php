@@ -1,10 +1,8 @@
 <?php
 use App\Http\Controllers\ProductController;
-$total = 0;
-if(Session::has('user')) 
-{
-  $total = ProductController::favItem();
-}
+
+(Session::has('user')) ? $total = ProductController::favItem() : $total = 0;;
+
 
 ?>
 

@@ -34,7 +34,6 @@
         height: 100vh !important;
         margin-top: 130px !important;
         padding-left: 10px;
-        background:grey;
 
     }
 </style>
